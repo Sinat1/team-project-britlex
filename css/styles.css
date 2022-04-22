@@ -2,6 +2,7 @@
   --main-font: "Poppins";
   --main-text-color: #8f95a5;
   --title-text-color: #000000;
+  --about-number-color: #2A3246;
 }
 
 p,
@@ -33,4 +34,74 @@ a {
 
 .container {
   width: 1338px;
+}
+
+/* About */
+
+.about-header {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+
+  margin-bottom: 60px;
+
+  color: var(--title-text-color);
+}
+
+.about-text {
+  max-width: 652px;
+  font-size: 20px;
+  line-height: 1.8;
+
+  margin-bottom: 30px;
+
+  color: var(--main-text-color); 
+}
+
+.about-list {
+  display: flex;
+}
+
+/* .about-list li {
+  display: flex;
+  flex-direction: column;
+} */
+.about-list-text {
+  display: block;
+
+  font-size: 20px;
+  line-height: 1.5;
+
+  color: var(--main-text-color);
+}
+
+.about-list .about-item:not(:last-child) {
+  margin-right: 150px;
+}
+
+.long-text {
+  max-width: 108px;
+  text-align: center;
+}
+.about-number {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+  margin-bottom: 6px;
+
+  color: var(--about-number-color);
+}
+
+.about-section .container {
+  margin: 0 auto;
+  display: flex;
+}
+
+.about-image {
+  margin-left: 160px;
+}
+
+.about-info-container {
+  display: flex;
+  flex-direction: column;
 }
