@@ -2,7 +2,13 @@
   --main-font: 'Poppins';
   --main-text-color: #8f95a5;
   --title-text-color: #000000;
+
   --btn--bgr-color: #263238;
+
+  --btn-background: #263238;
+  --about-number-color: #2A3246;
+
+
 }
 
 p,
@@ -31,6 +37,7 @@ img {
 a {
   text-decoration: none;
 }
+
 
 /* contacts (Kristina) */
 .container {
@@ -69,9 +76,157 @@ a {
   margin-bottom: 60px;
 
   font-family: var(--main-font);
+
+
+/* Skills section */
+body {
+  font-family: var(--main-font), sans-serif;
+  color: var(--title-text-color);
+  line-height: 1.5;
+}
+
+.skills-title {
+  font-weight: 600;
+  font-size: 48px;
+
+  text-align: center;
+}
+
+.skills-list-item {
+  background-color: #F5F5F5;
+}
+
+.skill-name {
+  font-weight: 600;
+  font-size: 30px;
+
+  color: #263238;
+}
+
+.skill-description {
+  font-weight: 400;
+  font-size: 16px;
+  
+  color: var(--main-text-color);
+}
+
+.main-button {
+  display: inline-block;
+  min-width: 230px;
+  padding: 17px 63px 16px 64px;
+
+  font-weight: 500;
+  font-size: 18px;
+
+  color: #FFFFFF;
+  background: #263238;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.skills-list-item:nth-child(1) {
+  display: inline-block;
+  max-width: 426px;
+  max-height: 947px;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+.menu-header {
+  color: var(--main-text-color);
+
+  display: flex;
+  margin-left: 228px;
+  margin-right: 121px;
+
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 500px;
+}
+.menu-header .item {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.logo {
+  color: var(--main-text-color);
+
+  font-size: 36px;
+  line-height: 1.5;
+  font-weight: 400;
+
+  cursor: pointer;
+}
+
+.logo-accent {
+  color: var(--title-text-color);
+}
+/* button */
+.button {
+  color: var(--main-text-color);
+
+  font-family: inherit;
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 1.5;
+
+  cursor: pointer;
+}
+.container {
+  width: 1338px;
+  margin: 0 auto;
+  padding: 0 131px;
+}
+
+/* hero */
+.hero-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-title {
+  font-family: var(--main-font);
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.25;
+  width: 386px;
+  margin-bottom: 40px;
+}
+
+.hero-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: var(--main-text-color);
+  width: 540px;
+  margin-bottom: 60px;
+}
+
+.hero-button {
+  font-family: var(--main-font);
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: var(--btn-background);
+  border-radius: 10px;
+  padding: 23px 64px;
+  width: 426px;
+ 
+}
+
+/* About */
+
+.about-header {
+
   font-weight: 600;
   font-size: 48px;
   line-height: 1.5;
+
 
   color: var(--title-text-color);
 }
@@ -81,9 +236,66 @@ a {
 
   font-family: var(--main-font);
   font-weight: 400;
+
+  margin-bottom: 60px;
+
+  color: var(--title-text-color);
+}
+
+.about-text {
+  max-width: 652px;
+  font-size: 20px;
+  line-height: 1.8;
+
+  margin-bottom: 30px;
+
+  color: var(--main-text-color); 
+}
+
+.about-list {
+  display: flex;
+}
+
+.about-list-text {
+  display: block;
+
   font-size: 20px;
   line-height: 1.5;
 
   color: var(--main-text-color);
 }
+
 /* contacts END */
+
+
+.about-list .about-item:not(:last-child) {
+  margin-right: 150px;
+}
+
+.long-text {
+  max-width: 108px;
+  text-align: center;
+}
+.about-number {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+  margin-bottom: 6px;
+
+  color: var(--about-number-color);
+}
+
+.about-section .container {
+  margin: 0 auto;
+  display: flex;
+}
+
+.about-image {
+  margin-left: 160px;
+}
+
+.about-info-container {
+  display: flex;
+  flex-direction: column;
+}
+
