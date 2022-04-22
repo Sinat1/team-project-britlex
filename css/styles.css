@@ -1,7 +1,8 @@
 :root {
-  --main-font: "Poppins";
+  --main-font: 'Poppins';
   --main-text-color: #8f95a5;
   --title-text-color: #000000;
+  --btn--bgr-color: #263238;
 }
 
 p,
@@ -30,3 +31,59 @@ img {
 a {
   text-decoration: none;
 }
+
+/* contacts (Kristina) */
+.container {
+  width: 1224px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-us {
+  padding-bottom: 95px;
+}
+
+.contact-us-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-us-img {
+  margin-right: 144px;
+}
+
+.contact-us-email {
+  margin-right: 30px;
+
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+
+  color: var(--main-text-color);
+}
+
+.contact-us-title {
+  margin-bottom: 60px;
+
+  font-family: var(--main-font);
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+
+  color: var(--title-text-color);
+}
+
+.contact-us-descr {
+  margin-bottom: 30px;
+
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+
+  color: var(--main-text-color);
+}
+/* contacts END */
