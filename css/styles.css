@@ -2,6 +2,7 @@
   --main-font: "Poppins";
   --main-text-color: #8f95a5;
   --title-text-color: #000000;
+  --btn-background: #263238;
 }
 
 p,
@@ -33,4 +34,44 @@ a {
 
 .container {
   width: 1338px;
+  margin: 0 auto;
+  padding: 0 131px;
+}
+
+/* hero */
+.hero-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-title {
+  font-family: var(--main-font);
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 1.25;
+  width: 386px;
+  margin-bottom: 40px;
+}
+
+.hero-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: var(--main-text-color);
+  width: 540px;
+  margin-bottom: 60px;
+}
+
+.hero-button {
+  font-family: var(--main-font);
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: var(--btn-background);
+  border-radius: 10px;
+  padding: 23px 64px;
+  width: 426px;
 }
