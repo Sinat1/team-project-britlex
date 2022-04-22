@@ -30,3 +30,7 @@ img {
 a {
   text-decoration: none;
 }
+
+.container {
+  width: 1338px;
+}
