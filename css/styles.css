@@ -30,3 +30,48 @@ img {
 a {
   text-decoration: none;
 }
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+.menu-header {
+  color: var(--main-text-color);
+
+  display: flex;
+  margin-left: 228px;
+  margin-right: 121px;
+
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 500px;
+}
+.menu-header .item {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.logo {
+  color: var(--main-text-color);
+
+  font-size: 36px;
+  line-height: 1.5;
+  font-weight: 400;
+
+  cursor: pointer;
+}
+
+.logo-accent {
+  color: var(--title-text-color);
+}
+/* button */
+.button {
+  color: var(--main-text-color);
+
+  font-family: inherit;
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 1.5;
+
+  cursor: pointer;
+}
