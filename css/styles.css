@@ -32,8 +32,106 @@ a {
   text-decoration: none;
 }
 
+
+/* Skills section */
+body {
+  font-family: var(--main-font), sans-serif;
+  color: var(--title-text-color);
+  line-height: 1.5;
+}
+
+.skills-title {
+  font-weight: 600;
+  font-size: 48px;
+
+  text-align: center;
+}
+
+.skills-list-item {
+  background-color: #F5F5F5;
+}
+
+.skill-name {
+  font-weight: 600;
+  font-size: 30px;
+
+  color: #263238;
+}
+
+.skill-description {
+  font-weight: 400;
+  font-size: 16px;
+  
+  color: var(--main-text-color);
+}
+
+.main-button {
+  display: inline-block;
+  min-width: 230px;
+  padding: 17px 63px 16px 64px;
+
+  font-weight: 500;
+  font-size: 18px;
+
+  color: #FFFFFF;
+  background: #263238;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.skills-list-item:nth-child(1) {
+  display: inline-block;
+  max-width: 426px;
+  max-height: 947px;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+.menu-header {
+  color: var(--main-text-color);
+
+  display: flex;
+  margin-left: 228px;
+  margin-right: 121px;
+
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 500px;
+}
+.menu-header .item {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.logo {
+  color: var(--main-text-color);
+
+  font-size: 36px;
+  line-height: 1.5;
+  font-weight: 400;
+
+  cursor: pointer;
+}
+
+.logo-accent {
+  color: var(--title-text-color);
+}
+/* button */
+.button {
+  color: var(--main-text-color);
+
+  font-family: inherit;
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 1.5;
+
+  cursor: pointer;
+
 .container {
   width: 1338px;
+ 
 }
 
 /* About */
