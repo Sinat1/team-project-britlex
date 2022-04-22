@@ -45,7 +45,7 @@ a {
 }
 
 .hero-title {
-  font-family: var(--main-font);
+  font-family: "Poppins";
   font-weight: 600;
   font-size: 64px;
   line-height: 1.25;
@@ -54,12 +54,16 @@ a {
 }
 
 .hero-text {
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 1.5;
   color: var(--main-text-color);
   width: 540px;
   margin-bottom: 60px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+
+  color: #8f95a5;
 }
 
 .hero-button {
@@ -74,4 +78,17 @@ a {
   border-radius: 10px;
   padding: 23px 64px;
   width: 426px;
+}
+
+.learning {
+  width: 654px;
+  height: 510px;
+  fill: black;
+}
+
+.bulb {
+  width: 85.24px;
+  height: 85.24px;
+  fill: black;
+  transform: rotate(38.44deg);
 }
