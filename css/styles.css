@@ -2,6 +2,7 @@
   --main-font: "Poppins";
   --main-text-color: #8f95a5;
   --title-text-color: #000000;
+  --border-liner-color:#C4C4C4;
 }
 
 p,
@@ -29,4 +30,51 @@ img {
 
 a {
   text-decoration: none;
+}
+
+
+/*Footer*/
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 131px;
+  margin-right: 131px;
+  margin-bottom: 55px;
+  border-top: 1px solid var(--border-liner-color);
+  padding-top: 23px;
+  padding-bottom: 22px ;
+}
+
+
+.LogoF{
+font-size: 36px;
+line-height: 1.5;
+display: flex;
+margin-right: 463px;
+align-items: center;
+color: var(--title-text-color);
+
+}
+
+.grey-logo{
+  color: var(--main-text-color);
+}
+
+.footer-list{
+  display: flex;
+}
+
+.footer-item{
+font-size: 24px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+color: var(--main-text-color);
+}
+
+.footer-list>:not(:last-child){
+  margin-right: 80px;
 }
