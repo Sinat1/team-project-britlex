@@ -41,6 +41,11 @@ a {
 /* hero */
 .hero-block {
   display: flex;
+  margin-top: 55px;
+}
+
+.hero-info {
+  display: flex;
   flex-direction: column;
 }
 
@@ -87,8 +92,13 @@ a {
 }
 
 .bulb {
+  position: absolute;
+  top: 0;
+  left: 420px;
   width: 85.24px;
   height: 85.24px;
+  margin-top: 147px;
+  margin-left: 34px;
   fill: black;
   transform: rotate(38.44deg);
 }
